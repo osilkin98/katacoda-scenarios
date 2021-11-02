@@ -113,8 +113,12 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
-  "backend": {
+  "environment": {
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe",
+},
+"backend": {
     "autoUpgrade": true,
     "imageid": "openshift-4-7"
   }
