@@ -115,6 +115,7 @@
   },
   "environment": {},
   "backend": {
-    "imageid": "kubernetes-cluster-running"
+    "autoUpgrade": true,
+    "imageid": "openshift-4-7"
   }
 }
